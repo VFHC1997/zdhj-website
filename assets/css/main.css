@@ -13905,8 +13905,8 @@ span {
   transition: all 0.3s ease;
 }
 .language-toggle svg {
-  width: 1em;
-  height: 1em;
+  width: 22px;
+  height: 22px;
   display: block;
 }
 .language-toggle:hover {
