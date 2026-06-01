@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*
-Theme Name: 中大恒建（北京）新材料科技有限公司 
+Theme Name: ZHONGDA HENGJIAN (BEIJING) NEW MATERIAL TECHNOLOGY CO., LTD 
 更多下载：https://www.bootstrapmb.com 
-Description: 中大恒建(北京)新材料科技有限公司
+Description: ZHONGDA HENGJIAN (BEIJING) NEW MATERIAL TECHNOLOGY CO., LTD - Construction and Architecture HTML Template
 Service Html Template 
 Version: 1.0.0
 */
@@ -43,7 +43,7 @@ Version: 1.0.0
   --gt-body: #fff;
   --gt-black: #000;
   --gt-white: #fff;
-  --gt-theme: #1B4C9E;
+  --gt-theme: #1452A5;
   --gt-header: #1D1D1D;
   --gt-text: #595959;
   --gt-border: #FCFCFC;
@@ -1306,7 +1306,7 @@ span {
   width: 100%;
   height: 100%;
   content: "";
-  background: linear-gradient(90deg, rgba(252, 90, 17, 0.8), rgba(29, 29, 29, 0.8));
+  background: linear-gradient(90deg, rgba(20, 82, 165, 0.8), rgba(29, 29, 29, 0.8));
 }
 .gt-about-wrapper-5 .gt-about-content .gt-list-area .gt-video-bg .gt-video {
   position: absolute;
@@ -2850,7 +2850,7 @@ span {
   width: 100%;
   height: 100%;
   content: "";
-  background: linear-gradient(90deg, rgba(252, 90, 17, 0.8), rgba(29, 29, 29, 0.8));
+  background: linear-gradient(90deg, rgba(20, 82, 165, 0.8), rgba(29, 29, 29, 0.8));
   z-index: -1;
 }
 
@@ -2870,7 +2870,7 @@ span {
   width: 100%;
   height: 100%;
   content: "";
-  background: linear-gradient(90deg, rgb(252, 90, 17), rgb(29, 29, 29));
+  background: linear-gradient(90deg, rgb(20, 82, 165), rgb(29, 29, 29));
 }
 @media (max-width: 1199px) {
   .cta-contact-wrapper-4 {
@@ -3429,7 +3429,7 @@ span {
   width: 100%;
   height: 100%;
   content: "";
-  background-color: #2683C5;
+  background-color: rgba(20, 82, 165, 0.9);
 }
 
 .gt-counter-wrapper .gt-counter-box {
@@ -4194,7 +4194,7 @@ span {
   width: 100%;
   height: 100%;
   content: "";
-  background: linear-gradient(90deg, rgba(252, 90, 17, 0.8), rgba(29, 29, 29, 0.8));
+  background: linear-gradient(90deg, rgba(20, 82, 165, 0.8), rgba(29, 29, 29, 0.8));
   z-index: -1;
 }
 
@@ -5112,7 +5112,7 @@ span {
   }
 }
 .header-1.header-3 {
-  margin-top: 66px;
+  margin-top: 30px;
 }
 @media (max-width: 1399px) {
   .header-1.header-3 {
@@ -6965,7 +6965,7 @@ span {
   background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(10px);
   border: 2px solid transparent;
-  border-image: linear-gradient(135deg, rgb(252, 90, 17), rgba(255, 255, 255, 0.9)) 1;
+  border-image: linear-gradient(135deg, rgb(20, 82, 165), rgba(255, 255, 255, 0.9)) 1;
   padding: 48px 60px;
 }
 @media (max-width: 1600px) {
@@ -7136,6 +7136,25 @@ span {
 }
 @media (max-width: 575px) {
   .gt-hero-3 .gt-hero-content h1 {
+    font-size: 36px;
+  }
+}
+.gt-hero-3 .gt-hero-content h1.hero-title-small {
+  font-size: 62px;
+  line-height: normal;
+}
+@media (max-width: 1399px) {
+  .gt-hero-3 .gt-hero-content h1.hero-title-small {
+    font-size: 54px;
+  }
+}
+@media (max-width: 991px) {
+  .gt-hero-3 .gt-hero-content h1.hero-title-small {
+    font-size: 45px;
+  }
+}
+@media (max-width: 767px) {
+  .gt-hero-3 .gt-hero-content h1.hero-title-small {
     font-size: 36px;
   }
 }
@@ -8642,13 +8661,14 @@ span {
   }
 }
 .preloader .animation-preloader .txt-loading {
-  font: bold 5em "Barlow", sans-serif, "Inter", sans-serif;
+  font: bold clamp(1.7rem, 5vw, 4.5rem) "Barlow", sans-serif, "Inter", sans-serif;
   text-align: center;
   user-select: none;
+  white-space: nowrap;
 }
 @media (max-width: 767px) {
   .preloader .animation-preloader .txt-loading {
-    font-size: 2.5em;
+    font-size: clamp(1.25rem, 6vw, 2.5rem);
   }
 }
 .preloader .animation-preloader .txt-loading .letters-loading {
@@ -9080,6 +9100,21 @@ span {
   background-color: var(--gt-theme);
   color: var(--gt-white);
 }
+.gt-page-nav-wrap ul li button.gt-page-numbers {
+  border: 0;
+}
+.gt-page-nav-wrap ul li .gt-page-numbers:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+.gt-page-nav-wrap ul li .gt-page-numbers:disabled:hover {
+  background-color: var(--gt-bg);
+  color: var(--gt-header);
+}
+
+[v-cloak] {
+  display: none;
+}
 
 .gt-pricing-wrapper .gt-pricing-left-content .pricing-text {
   margin-top: 30px;
@@ -9490,7 +9525,7 @@ span {
   bottom: 20px;
   right: 20px;
   padding: 27px 25px 26px;
-  background-color: rgba(252, 90, 17, 0.8);
+  background-color: rgba(20, 82, 165, 0.8);
   overflow: hidden;
   -webkit-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
   -ms-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
@@ -10054,7 +10089,7 @@ span {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(252, 90, 17, 0.5);
+  background: rgba(20, 82, 165, 0.5);
   z-index: 1;
   opacity: 0;
   visibility: hidden;
@@ -10072,7 +10107,7 @@ span {
   left: 25px;
   z-index: 9;
   bottom: -25px;
-  background-color: rgba(252, 90, 17, 0.8);
+  background-color: rgba(20, 82, 165, 0.8);
   padding: 15px 20px;
   opacity: 0;
   visibility: hidden;
@@ -11227,7 +11262,7 @@ span {
   font-size: 15px;
   line-height: 1;
   padding: 7px 20px;
-  background-color: rgba(252, 90, 17, 0.9);
+  background-color: rgba(20, 82, 165, 0.9);
   transition: all 0.4s ease-in-out;
 }
 @media (max-width: 1399px) {
@@ -11390,6 +11425,22 @@ span {
 .gt-shop-card-items {
   margin-top: 30px;
   background-color: #FCFCFC;
+}
+#shop-grid-products > [class*=col-] {
+  display: flex;
+}
+#shop-grid-products .gt-shop-card-items {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#shop-grid-products .gt-shop-card-items .gt-shop-content {
+  flex: 1;
+}
+#shop-grid-products .gt-shop-card-items .gt-shop-image .gt-shop-icon {
+  top: 16px;
+  right: 16px;
+  transform: none;
 }
 .gt-shop-card-items .gt-shop-image {
   position: relative;
@@ -11753,6 +11804,27 @@ span {
 .gt-shop-notices-wrapper .form-clt {
   max-width: 300px;
   width: 100%;
+}
+.gt-shop-notices-wrapper .gt-shop-filter-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  flex-wrap: nowrap;
+}
+.gt-shop-notices-wrapper .gt-shop-filter-controls .form-clt {
+  max-width: 220px;
+}
+@media (max-width: 1199px) {
+  .gt-shop-notices-wrapper .gt-shop-filter-controls {
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
+@media (max-width: 575px) {
+  .gt-shop-notices-wrapper .gt-shop-filter-controls .form-clt {
+    max-width: 100%;
+  }
 }
 
 .gt-shop-inner-wrapper .gt-shop-sidebar-area .gt-shop-items {
@@ -13814,5 +13886,55 @@ span {
   left: 0;
   right: 0;
   height: 58%;
-  background: linear-gradient(90deg, rgba(252, 90, 17, 0.8), rgba(29, 29, 29, 0.8));
-}/*# sourceMappingURL=main.css.map */
+  background: linear-gradient(90deg, rgba(20, 82, 165, 0.8), rgba(29, 29, 29, 0.8));
+}
+
+.language-toggle {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 0;
+  color: #3E4359;
+  background-color: transparent;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.language-toggle svg {
+  width: 1em;
+  height: 1em;
+  display: block;
+}
+.language-toggle:hover {
+  color: var(--gt-theme);
+}
+.sticky.header-1 .language-toggle {
+  color: var(--gt-header);
+}
+.sticky.header-1 .language-toggle:hover {
+  color: var(--gt-theme);
+}
+.header-1.header-3 .header-main .header-right .language-toggle,
+.header-1.header-5 .header-main .header-right .language-toggle {
+  color: var(--gt-white);
+}
+@media (max-width: 1399px) {
+  .header-1.header-3 .header-main .header-right .language-toggle {
+    color: var(--gt-header);
+  }
+}
+.sticky.header-3 .header-main .header-right .language-toggle,
+.sticky.header-5 .header-main .header-right .language-toggle {
+  color: var(--gt-header);
+}
+.header-1.header-3 .header-main .header-right .language-toggle:hover,
+.header-1.header-5 .header-main .header-right .language-toggle:hover,
+.sticky.header-3 .header-main .header-right .language-toggle:hover,
+.sticky.header-5 .header-main .header-right .language-toggle:hover {
+  color: var(--gt-theme);
+}
+/*# sourceMappingURL=main.css.map */
