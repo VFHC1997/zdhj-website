@@ -628,6 +628,33 @@
         });
     }
 
+    if($('.project-slider-3').length > 0) {
+        const ProjectSlider3 = new Swiper(".project-slider-3", {
+            spaceBetween: 30,
+            speed: 900,
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: ".project-next",
+                prevEl: ".project-prev",
+            },
+            breakpoints: {
+                1200: {
+                    slidesPerView: 3,
+                },
+                768: {
+                    slidesPerView: 2,
+                },
+                0: {
+                    slidesPerView: 1,
+                },
+            },
+        });
+    }
+
     $(document).ready(function () {
     function initSlick() {
         if ($(window).width() > 768) {

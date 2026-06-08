@@ -2,7 +2,7 @@
   "use strict";
 
   const STORAGE_KEY = "zhongda-hengjian-language";
-  const DEFAULT_LANG = "en";
+  const DEFAULT_LANG = "zh";
   const BRAND_EN = "ZHONGDA HENGJIAN (BEIJING) NEW MATERIAL TECHNOLOGY CO., LTD";
   const BRAND_ZH = "\u4e2d\u5927\u6052\u5efa\uff08\u5317\u4eac\uff09\u65b0\u6750\u6599\u79d1\u6280\u6709\u9650\u516c\u53f8";
   const PRELOADER_BRAND_EN = "ZHONGDAHENGJIAN";
@@ -242,15 +242,17 @@
     "Enterprise Vision": "\u4f01\u4e1a\u613f\u666f",
     "Global Building Materials Innovation Benchmark": "\u6210\u4e3a\u5168\u7403\u5efa\u7b51\u6750\u6599\u9886\u57df\u7684\u6280\u672f\u521b\u65b0\u6807\u6746\u4e0e\u4ea7\u4e1a\u5f15\u9886\u8005",
     "Technology Leader And Industry Pioneer": "\u6280\u672f\u521b\u65b0\u6807\u6746\u4e0e\u4ea7\u4e1a\u5f15\u9886\u8005",
+    "Driven by research and validated through industry application": "\u4ee5\u79d1\u7814\u5b9e\u529b\u4e3a\u652f\u6491 \u4ee5\u4ea7\u4e1a\u5e94\u7528\u4e3a\u9a8c\u8bc1",
     "Global Benchmark in Building Materials": "\u6210\u4e3a\u5168\u7403\u5efa\u7b51\u6750\u6599\u9886\u57df\u7684\u6280\u672f\u521b\u65b0\u6807\u6746\u4e0e\u4ea7\u4e1a\u5f15\u9886\u8005",
     "Technology innovation and industry leadership": "\u6280\u672f\u521b\u65b0\u4e0e\u4ea7\u4e1a\u5f15\u9886",
     "Global Building Materials": "\u6210\u4e3a\u5168\u7403\u5efa\u7b51\u6750\u6599\u9886\u57df\u7684",
     "Innovation Benchmark": "\u6280\u672f\u521b\u65b0\u6807\u6746",
-    "Global Building Materials Innovation Benchmark": "\u6210\u4e3a\u5168\u7403\u5efa\u7b51\u6750\u6599\u9886\u57df\u7684\u6280\u672f\u521b\u65b0\u6807\u6746",
+    "Global Building Materials Innovation Benchmark": "\u6210\u4e3a\u5168\u7403\u5efa\u7b51\u6750\u6599\u9886\u57df\u7684\u6280\u672f\u521b\u65b0\u6807\u6746\u4e0e\u4ea7\u4e1a\u5f15\u9886\u8005",
     "Technology leader and industry pioneer": "\u4ea7\u4e1a\u5f15\u9886\u8005",
     "Enterprise Mission": "\u4f01\u4e1a\u4f7f\u547d",
-    "Stronger Buildings Sustainable World": "\u8ba9\u5efa\u7b51\u66f4\u575a\u56fa\u8ba9\u4e16\u754c\u66f4\u53ef\u6301\u7eed",
+    "Stronger Buildings Sustainable World": "\u8ba9\u5efa\u7b51\u66f4\u575a\u56fa \u8ba9\u4e16\u754c\u66f4\u53ef\u6301\u7eed",
     "Building With Strength And Sustainability": "\u8ba9\u5efa\u7b51\u66f4\u575a\u56fa\u8ba9\u4e16\u754c\u66f4\u53ef\u6301\u7eed",
+    "Delivering reliable materials for safer and longer lasting structures": "\u63d0\u4f9b\u53ef\u9760\u6750\u6599 \u5b88\u62a4\u66f4\u5b89\u5168\u66f4\u957f\u4e45\u7684\u5efa\u7b51\u7ed3\u6784",
     "Stronger Buildings, Sustainable Future": "\u8ba9\u5efa\u7b51\u66f4\u575a\u56fa\uff0c\u8ba9\u4e16\u754c\u66f4\u53ef\u6301\u7eed",
     "Making construction more durable and responsible": "\u63a8\u52a8\u66f4\u575a\u56fa\u3001\u66f4\u53ef\u6301\u7eed\u7684\u5efa\u7b51\u53d1\u5c55",
     "Stronger Buildings": "\u8ba9\u5efa\u7b51\u66f4\u575a\u56fa",
@@ -258,8 +260,10 @@
     "Stronger Buildings More Sustainable World": "\u8ba9\u5efa\u7b51\u66f4\u575a\u56fa\uff0c\u8ba9\u4e16\u754c\u66f4\u53ef\u6301\u7eed",
     "Advancing durable and responsible construction": "\u63a8\u52a8\u575a\u56fa\u3001\u53ef\u6301\u7eed\u7684\u5efa\u7b51\u53d1\u5c55",
     "Core Values": "\u4f01\u4e1a\u4ef7\u503c\u89c2",
-    "Innovation Driven Technology For Good Customer Success": "\u521b\u65b0\u9a71\u52a8\u79d1\u6280\u5411\u5584\u5ba2\u6237\u5171\u8d62",
+    "Innovation Driven Technology For Good Customer Success": "\u521b\u65b0\u9a71\u52a8 \u79d1\u6280\u5411\u5584 \u5ba2\u6237\u5171\u8d62",
+    "Innovation Driven Technology For Good Customer Success Responsibility As Foundation": "\u521b\u65b0\u9a71\u52a8 \u79d1\u6280\u5411\u5584 \u5ba2\u6237\u5171\u8d62 \u8d23\u4efb\u7b51\u57fa",
     "Responsibility As Foundation": "\u8d23\u4efb\u7b51\u57fa",
+    "Creating long term value through responsible technology and trusted collaboration": "\u4ee5\u8d23\u4efb\u79d1\u6280\u4e0e\u53ef\u4fe1\u534f\u4f5c\u521b\u9020\u957f\u671f\u4ef7\u503c",
     "Innovation for Good, Shared Success": "\u521b\u65b0\u9a71\u52a8\u3001\u79d1\u6280\u5411\u5584\u3001\u5ba2\u6237\u5171\u8d62",
     "Responsibility as the foundation": "\u8d23\u4efb\u7b51\u57fa",
     "Innovation Driven": "\u521b\u65b0\u9a71\u52a8",
