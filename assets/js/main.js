@@ -97,9 +97,9 @@
              loop: true,
              slidesPerView: 1,
              effect: "fade",
-             speed: 3000,
+             speed: 3600,
              autoplay: {
-                 delay: 3000,
+                 delay: 6000,
                  disableOnInteraction: false,
              },
             pagination: {
@@ -629,18 +629,10 @@
     }
 
     if($('.project-slider-3').length > 0) {
-        const ProjectSlider3 = new Swiper(".project-slider-3", {
+        const projectSliderOptions = {
             spaceBetween: 30,
             speed: 900,
             loop: true,
-            autoplay: {
-                delay: 2500,
-                disableOnInteraction: false,
-            },
-            navigation: {
-                nextEl: ".project-next",
-                prevEl: ".project-prev",
-            },
             breakpoints: {
                 1200: {
                     slidesPerView: 3,
@@ -652,6 +644,33 @@
                     slidesPerView: 1,
                 },
             },
+        };
+        const ProjectSlider3Top = new Swiper(".project-slider-3-top", {
+            ...projectSliderOptions,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+        const ProjectSlider3Bottom = new Swiper(".project-slider-3-bottom", {
+            ...projectSliderOptions,
+            initialSlide: 2,
+            speed: 1100,
+            autoplay: {
+                delay: 3200,
+                disableOnInteraction: false,
+                reverseDirection: true,
+            },
+        });
+
+        $(".project-next").on("click", function () {
+            ProjectSlider3Top.slideNext();
+            ProjectSlider3Bottom.slidePrev();
+        });
+
+        $(".project-prev").on("click", function () {
+            ProjectSlider3Top.slidePrev();
+            ProjectSlider3Bottom.slideNext();
         });
     }
 
