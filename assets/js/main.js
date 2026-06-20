@@ -195,8 +195,8 @@
                 disableOnInteraction: false,
             },
             navigation: {
-                nextEl: ".array-prev",
-                prevEl: ".array-next",
+                nextEl: ".array-next",
+                prevEl: ".array-prev",
             },
             breakpoints: {
                 1199: {
